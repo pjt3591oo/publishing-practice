@@ -1,0 +1,148 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #F5F5F5;
+}
+
+li { 
+  list-style: none;
+  border-radius: "5px";
+}
+
+img.badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+}
+
+.mung-list-view {
+  /* max-width: 852px; */
+  width: 825px;
+  margin: auto;
+}
+
+.mung-list-view ul {
+  width: 100%;
+}
+
+.mung-list-view ul li {
+  border: 1px solid rgba(85, 85, 85, 0);;
+  background-color: white;
+  margin-bottom: 11px;
+  padding: 20px;
+}
+
+.mung-list-view ul li:hover {
+  border: 2px solid rgb(80, 152, 184);
+  padding: 18px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* 제목 */
+.mung-list-view ul li .title {
+  display: table;
+}
+.mung-list-view ul li .title h4{
+  color: rgb(32, 153, 187);
+  font-size: 18px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* 예상금액, 예상기간, 등록일자 */
+.mung-list-view ul li .sub-desc {
+  margin-top: 10px;
+}
+.mung-list-view ul li .sub-desc > span {
+  font-size: 14px;
+  color: #666;
+}
+.mung-list-view ul li .sub-desc > span.date {
+  font-size: 12px;
+  color: #ccc;
+}
+
+
+/* 설명 */
+.mung-list-view ul li .body-desc {
+  margin-top: 10px;
+}
+.mung-list-view ul li .body-desc > p {
+  width: 580px;
+  color: #999;
+  font-size: 13px;
+  float: left;
+}
+.mung-list-view ul li .outer-info {
+  float: right;
+  width: calc(100% - (580px + 35px));
+  font-size: 13px;
+  line-height: 13px;
+  color: rgb(85, 85, 85);
+}
+.mung-list-view ul li .outer-info .outer-info-data:not(:first-child) {
+  margin-top: 11px;
+}
+.mung-list-view ul li .outer-info hr {
+  margin-top: 6px;
+  border: 1px solid #dedede;
+}
+
+
+/* 카테코리, 태그, 조회수, 좋아요, 댓글  */
+.mung-list-view ul li .footer {
+  margin-top: 15px;
+  color: #999;
+}
+
+.mung-list-view ul li .footer .tech{
+  width: 580px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+.mung-list-view ul li .footer .tags {
+  margin-left: 10px;
+}
+.mung-list-view ul li .footer .tags,
+.mung-list-view ul li .footer .cate{
+  display: inline-block;
+}
+.mung-list-view ul li .footer .tags .tag{
+  background-color: #e5e7e8;
+  color: #555;
+  border-radius: 5px;
+  padding: 1px 7px;
+  margin-left: 7px;
+  margin-bottom: -1px;
+}
+.mung-list-view ul li .footer .relative {
+  float: right;
+  width: calc(100% - (580px + 35px));
+  height: 13px;
+  font-size: 13px;
+  line-height: 1;
+}
+.mung-list-view ul li .footer .relative > span:not(:first-child) {
+  /* margin-left: 11px; */
+}
+.mung-list-view ul li .footer .relative > img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.mung-list-view ul li .footer .relative > img:not(:first-child) {
+  margin-left: 11px;
+  vertical-align: middle;
+}
