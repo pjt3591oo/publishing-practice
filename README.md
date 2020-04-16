@@ -83,3 +83,9 @@ $ npm run build
     
   </script>
 ```
+
+* 테스트
+
+`no_plugin_test.html`: css파일 호출
+
+`plugin_test.html`: 플러그인 호출
