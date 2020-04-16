@@ -6,6 +6,7 @@
 $ npm run build
 ```
 
+빌드된 파일은 `static/javascripts/mungView_plugin.js` 떨궈진다.
 
 * 스크립트 추가
 
