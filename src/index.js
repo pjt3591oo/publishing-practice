@@ -1,3 +1,3 @@
-import MungView from './mungView'
+import MungView from './mungView';
 
-export {MungView as view}
+export {MungView as view};

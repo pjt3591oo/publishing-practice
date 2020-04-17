@@ -10,7 +10,8 @@ const config = {
         library: 'MungView_plugin',
         libraryTarget: 'umd',
         umdNamedDefine: true
-    }
+    },
+    mode: 'production'
 };
 
 module.exports = config;  

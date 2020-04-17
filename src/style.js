@@ -113,6 +113,6 @@ class Style {
 
     }) 
   }
-}
+};
 
-export default Style
+export default Style;

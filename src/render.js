@@ -211,6 +211,6 @@ class Render {
 
     return div
   }
-}
+};
 
-export default Render
+export default Render;

@@ -1,5 +1,5 @@
-import Render from './render'
-import Style from './style'
+import Render from './render';
+import Style from './style';
 
 class MungView extends Render{
   constructor({
@@ -79,6 +79,6 @@ class MungView extends Render{
     
     return item
   }
-}
+};
 
-export default MungView
+export default MungView;
